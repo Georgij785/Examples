@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("What's your mame?");
 string userName= Console.ReadLine();
-if (userName == "Маша")
+if (userName.ToLower() == "маша")
 {
     Console.WriteLine("Ура, это же МАША!");
 }
