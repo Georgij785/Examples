@@ -1,1 +1,1 @@
-﻿PriorityQueue90
+﻿Console.WriteLine("Hello world");
