@@ -8,10 +8,8 @@ while (index < n)
     if (array[index] == find)
     {
         Console.WriteLine("искомое число находится в массиве под индексом " + index);
-        index++;
+        break;
     }
-    else
-    {
-        index++;
-    }
+    index++;
+    
 }
